@@ -8,7 +8,11 @@ vim.g.loaded_netrwPlugin = 1;
 
 vim.opt.termguicolors = true;
 
-require("nvim-tree").setup();
+require("nvim-tree").setup({
+  view = {
+    width = 30,
+  }
+});
 
 local function open_nvim_tree()
   -- TO OPEN NVIM TREE ON START

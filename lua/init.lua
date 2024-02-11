@@ -1,2 +1,2 @@
-require("/plugins/plugins-list");
-require("/nvim/nvim-config");
+require("/plugins/init");
+require("/nvim/init");

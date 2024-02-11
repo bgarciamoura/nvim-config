@@ -20,3 +20,27 @@ vim.opt.mouse = 'a';
 
 -- disable the highlights of the previous search results
 vim.opt.hlsearch = false;
+
+-- auto indent next line like the previous one
+vim.opt.autoindent = true;
+
+-- fix the antialias on macos
+-- vim.opt.antialias = true;
+
+-- read the current file from disk if the file was changed outside vim
+vim.opt.autoread = true;
+
+-- autosave file when it has been modified
+vim.opt.autowrite = true;
+
+-- autosave file for commands
+vim.opt.autowriteall = true;
+
+-- highlight the cursor line to be more easy to find it
+vim.opt.cursorline = true;
+
+-- set the encoding to utf-8
+vim.opt.encoding = 'utf-8';
+
+-- remove the ~ character from empty lines on buffer
+vim.opt.fillchars = 'eob: '

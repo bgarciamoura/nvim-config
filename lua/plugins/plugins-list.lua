@@ -43,7 +43,10 @@ Plug 'kabouzeid/nvim-lspinstall';
 Plug 'nvim-lua/lsp-status.nvim';
 
 -- VIM-GITGUTTER - Git Gutter
-Plug 'airblade/vim-gitgutter';
+--Plug 'airblade/vim-gitgutter';
+
+-- GITSIGNS - Git icons, hunk signs and more
+Plug 'lewis6991/gitsigns.nvim';
 
 -- LUALINE - Status Line
 Plug 'nvim-lualine/lualine.nvim'

@@ -10,5 +10,6 @@ require("/plugins/telescope-config");
 require("/plugins/nvim-autopairs-config");
 require("/plugins/nvim-ts-autotag-config");
 require("/plugins/copilot-config");
+require("/plugins/gitsigns-config");
 
 vim.cmd [[colorscheme nightfly]];

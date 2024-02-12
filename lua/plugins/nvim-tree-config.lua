@@ -1,5 +1,3 @@
-print("From nvim-tree.lua");
-
 local vim = vim;
 
 -- Disable netrw
@@ -29,4 +27,6 @@ local function custom_on_attach(bufnr)
 	end
 	-- default mappings
 	api.config.mappings.default_on_attach(bufnr);
+
+	vim.keymap.set('n', '?', api.tree.toggle_help);
 end

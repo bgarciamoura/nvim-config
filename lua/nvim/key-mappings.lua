@@ -45,4 +45,23 @@ vim.keymap.set('n', '<M-Up>', '<C-W>+');
 vim.keymap.set('n', '<C-s>', ':w<CR>');
 vim.keymap.set('i', '<C-s>', '<Esc>:w<CR>');
 
+-- close current buffer
+vim.keymap.set('n', '<leader>c', ':BufferClose<CR>');
 
+-- move to next buffer
+vim.keymap.set('n', '<leader>l', ':BufferNext<CR>');
+
+-- move to previous buffer
+vim.keymap.set('n', '<leader>h', ':BufferPrevious<CR>');
+
+-- reorder: move the buffer next
+vim.keymap.set('n','<leader>>',':BufferMoveNext');
+
+-- reorder: move the buffer previous
+vim.keymap.set('n','<leader><',':BufferMovePrevious');
+
+-- pin or unpin the current buffer
+vim.keymap.set('n', '<leader>p', ':BufferPin<CR>');
+
+-- close all buffer but current
+vim.keymap.set('n', '<leader>q', ':BufferCloseAllButCurrent<CR>');

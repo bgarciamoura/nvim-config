@@ -1,0 +1,66 @@
+{
+	"codeLens.enable": true,
+	"colors.enable": true,
+	"diagnostic.errorSign": "✖",
+	"diagnostic.warningSign": "⚠",
+	"diagnostic.infoSign": "ℹ",
+	"diagnostic.hintSign": "➤",
+	"diagnostic.filetypeMap": {
+		"javascript": "eslint",
+		"typescript": "tslint"
+	},
+	"diagnostic.floatConfig": {
+		
+	},
+	"diagnostic.refreshOnInsertMode": true,
+	"diagnostic.virtualText": true,
+	"diagnostic.virtualTextPrefix": "❯",
+	"hover.floatConfig": {
+		"highlight": "float"
+	},
+	"links.tooltip": true,
+	"suggest.autoTrigger": "always",
+	"suggest.noselect": true,
+	"suggest.completionItemKindLabels": {
+		"method": "",
+		"function": "",
+		"constructor": "",
+		"field": "ﰠ",
+		"variable": "",
+		"class": "ﴯ",
+		"struct": "",
+		"interface": "蘒",
+		"module": "",
+		"property": "ﰠ",
+		"event": "",
+		"operator": "",
+		"unit": "塞",
+		"value": "",
+		"constant": "",
+		"enum": "",
+		"enumMember": "",
+		"keyword": "",
+		"text": "",
+		"snippet": "﬌",
+		"color": "",
+		"file": "",
+		"reference": "",
+		"folder": "",
+		"typeParameter": ""
+	},
+	"suggest.enablePreselect": true,
+	"suggest.floatConfig": {
+		"highlight": "float"
+	},
+	"suggest.removeDuplicateItems": true,
+	"suggest.snippetIndicator": "﬌",
+	"workspace.rootPatterns": [
+		".git",
+		".hg",
+		".projections.json"
+	],
+	"coc.preferences.enableMarkdown": true,
+	"coc.preferences.enableMessageDialog": true,
+	"coc.preferences.formatOnSave": true
+}
+

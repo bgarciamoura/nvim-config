@@ -17,9 +17,12 @@ vim.call('plug#begin');
 	Plug 'bluz71/vim-nightfly-colors';
 
 	-- COQ_NVIM - Autocompletion
-	Plug ('ms-jpq/coq_nvim', {['branch'] = 'coq'});
-	Plug ('ms-jpq/coq.artifacts', {['branch'] = 'artifacts'});
-	Plug 'ms-jpq/coq.thirdparty';
+	-- Plug ('ms-jpq/coq_nvim', {['branch'] = 'coq'});
+	-- Plug ('ms-jpq/coq.artifacts', {['branch'] = 'artifacts'});
+	-- Plug 'ms-jpq/coq.thirdparty';
+	
+	-- COC - Autocompletion for Vim Conqueror of Completion
+	Plug ('neoclide/coc.nvim', {['branch'] = 'release'});
 
 	-- BARBAR - To show bars, tabs and buffers
 	Plug 'lewis6991/gitsigns.nvim';
@@ -69,4 +72,7 @@ vim.call('plug#begin');
 
 	-- VIM-SURROUND - Fast way to rename tags
 	Plug 'tpope/vim-surround';
+
+	-- VIM COMMENTARY - Fast way to comment code
+	Plug 'tpope/vim-commentary';
 vim.call('plug#end');

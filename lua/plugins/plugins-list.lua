@@ -3,76 +3,77 @@ local Plug = vim.fn['plug#'];
 
 vim.call('plug#begin');
 
-	-- NVIM-TREE.LUA - Tree Viewer for files
-	Plug 'nvim-tree/nvim-web-devicons';
-	Plug 'nvim-tree/nvim-tree.lua';
+-- NVIM-TREE.LUA - Tree Viewer for files
+Plug 'nvim-tree/nvim-web-devicons';
+Plug 'nvim-tree/nvim-tree.lua';
 
-	-- MASON - Plugin manager for ldap servers, linters and more
-	Plug 'williamboman/mason.nvim';
+-- MASON - Plugin manager for ldap servers, linters and more
+Plug 'williamboman/mason.nvim';
+Plug 'williamboman/mason-lspconfig.nvim';
 
-	-- WHICH-KEY - Plugin that shows a window with some shortcuts
-	Plug 'folke/which-key.nvim';
+-- WHICH-KEY - Plugin that shows a window with some shortcuts
+Plug 'folke/which-key.nvim';
 
-	-- NIGHTFLY-COLORS - Nvim Theme
-	Plug 'bluz71/vim-nightfly-colors';
+-- NIGHTFLY-COLORS - Nvim Theme
+Plug 'bluz71/vim-nightfly-colors';
 
-	-- COQ_NVIM - Autocompletion
-	-- Plug ('ms-jpq/coq_nvim', {['branch'] = 'coq'});
-	-- Plug ('ms-jpq/coq.artifacts', {['branch'] = 'artifacts'});
-	-- Plug 'ms-jpq/coq.thirdparty';
-	
-	-- COC - Autocompletion for Vim Conqueror of Completion
-	Plug ('neoclide/coc.nvim', {['branch'] = 'release'});
+-- COQ_NVIM - Autocompletion
+-- Plug ('ms-jpq/coq_nvim', {['branch'] = 'coq'});
+-- Plug ('ms-jpq/coq.artifacts', {['branch'] = 'artifacts'});
+-- Plug 'ms-jpq/coq.thirdparty';
 
-	-- BARBAR - To show bars, tabs and buffers
-	Plug 'lewis6991/gitsigns.nvim';
-	Plug 'nvim-tree/nvim-web-devicons';
-	Plug 'romgrk/barbar.nvim';
+-- COC - Autocompletion for Vim Conqueror of Completion
+Plug('neoclide/coc.nvim', { ['branch'] = 'release' });
 
-	-- COPILOT - Github Copilot for autocompletion
-	Plug 'github/copilot.vim';
+-- BARBAR - To show bars, tabs and buffers
+Plug 'lewis6991/gitsigns.nvim';
+Plug 'nvim-tree/nvim-web-devicons';
+Plug 'romgrk/barbar.nvim';
 
-	-- LSPCONFIG - Language Server Protocol
-	Plug 'neovim/nvim-lspconfig';
+-- COPILOT - Github Copilot for autocompletion
+Plug 'github/copilot.vim';
 
-	-- LSPINSTALLER - Language Server Protocol
-	Plug 'kabouzeid/nvim-lspinstall';
+-- LSPCONFIG - Language Server Protocol
+Plug 'neovim/nvim-lspconfig';
 
-	-- LSPSTATUS - Language Server Protocol
-	Plug 'nvim-lua/lsp-status.nvim';
+-- LSPINSTALLER - Language Server Protocol
+Plug 'kabouzeid/nvim-lspinstall';
 
-	-- VIM-GITGUTTER - Git Gutter
-	Plug 'airblade/vim-gitgutter';
+-- LSPSTATUS - Language Server Protocol
+Plug 'nvim-lua/lsp-status.nvim';
 
-	-- LUALINE - Status Line
-	Plug 'nvim-lualine/lualine.nvim'
-	Plug 'nvim-tree/nvim-web-devicons'
+-- VIM-GITGUTTER - Git Gutter
+Plug 'airblade/vim-gitgutter';
 
-	-- VIM VISUAL MULTI - Multiple cursors
-	Plug ('mg979/vim-visual-multi', {['branch'] = 'master'});
+-- LUALINE - Status Line
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
 
-	-- VIM-STARTIFY - Start Screen
-	Plug 'mhinz/vim-startify';
+-- VIM VISUAL MULTI - Multiple cursors
+Plug('mg979/vim-visual-multi', { ['branch'] = 'master' });
 
-	-- VIM-TELESCOPE - Fuzzy Finder
-	Plug 'nvim-lua/plenary.nvim';
-	Plug ('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.5' });
+-- VIM-STARTIFY - Start Screen
+Plug 'mhinz/vim-startify';
 
-	-- EMMET-VIM - Emmet for Vim
-	Plug 'mattn/emmet-vim';
+-- VIM-TELESCOPE - Fuzzy Finder
+Plug 'nvim-lua/plenary.nvim';
+Plug('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.5' });
 
-	-- NVIM-AUTOPAIR - Autopair for Vim
-	Plug 'windwp/nvim-autopairs';
+-- EMMET-VIM - Emmet for Vim
+Plug 'mattn/emmet-vim';
 
-	-- NVIM-TS-AUTOTAG - Autotag for Vim
-	Plug 'windwp/nvim-ts-autotag';
+-- NVIM-AUTOPAIR - Autopair for Vim
+Plug 'windwp/nvim-autopairs';
 
-	-- NVIM-TREESITTER - Treesitter for Vim
-	Plug 'nvim-treesitter/nvim-treesitter';
+-- NVIM-TS-AUTOTAG - Autotag for Vim
+Plug 'windwp/nvim-ts-autotag';
 
-	-- VIM-SURROUND - Fast way to rename tags
-	Plug 'tpope/vim-surround';
+-- NVIM-TREESITTER - Treesitter for Vim
+Plug 'nvim-treesitter/nvim-treesitter';
 
-	-- VIM COMMENTARY - Fast way to comment code
-	Plug 'tpope/vim-commentary';
+-- VIM-SURROUND - Fast way to rename tags
+Plug 'tpope/vim-surround';
+
+-- VIM COMMENTARY - Fast way to comment code
+Plug 'tpope/vim-commentary';
 vim.call('plug#end');
